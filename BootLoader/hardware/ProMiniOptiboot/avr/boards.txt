@@ -1,0 +1,60 @@
+## XSensor auf Pro Mini mit Bootloader optiboot
+## 12.01.2019 by Thomas Lehmann  thomas@thls.de
+## --------------------------------------------
+
+menu.cpu=Processor
+menu.clock=Clock
+
+
+## Arduino Pro or Pro Mini (5V, 16 MHz) w/ ATmega328P mit Optibootloader
+## ---------------------------------------------------------------------
+
+ProMiniOpti.name=ProMiniOpti Pro Mini Optiboot
+
+ProMiniOpti.bootloader.tool=avrdude
+ProMiniOpti.bootloader.unlock_bits=0xFF
+ProMiniOpti.bootloader.lock_bits=0xEF
+
+ProMiniOpti.build.core=arduino:arduino
+ProMiniOpti.build.board=AVR_PRO
+ProMiniOpti.build.variant=eightanaloginputs
+
+ProMiniOpti.upload.tool=avrdude
+ProMiniOpti.upload.protocol=arduino
+
+
+
+## 5V 16MHz
+## --------
+ProMiniOpti.menu.cpu.16MHzatmega328ob.build.mcu=atmega328p
+ProMiniOpti.menu.cpu.16MHzatmega328ob.build.f_cpu=16000000L
+
+ProMiniOpti.menu.cpu.16MHzatmega328ob=ATmega328P (5V, 16 MHz) optiboot
+ProMiniOpti.menu.cpu.16MHzatmega328ob.upload.maximum_size=32256
+ProMiniOpti.menu.cpu.16MHzatmega328ob.upload.maximum_data_size=2048
+ProMiniOpti.menu.cpu.16MHzatmega328ob.upload.speed=115200
+
+ProMiniOpti.menu.cpu.16MHzatmega328ob.bootloader.low_fuses=0xFF
+ProMiniOpti.menu.cpu.16MHzatmega328ob.bootloader.high_fuses=0xDE
+ProMiniOpti.menu.cpu.16MHzatmega328ob.bootloader.extended_fuses=0xFD
+ProMiniOpti.menu.cpu.16MHzatmega328ob.bootloader.file=optiboot/optiboot_atmega328.hex
+
+
+
+## 3V3 8MHz
+## ---------
+ProMiniOpti.menu.cpu.8MHzatmega328ob.build.mcu=atmega328p
+ProMiniOpti.menu.cpu.8MHzatmega328ob.build.f_cpu=8000000L
+
+ProMiniOpti.menu.cpu.8MHzatmega328ob=ATmega328P (3V3, 8 MHz) optiboot
+ProMiniOpti.menu.cpu.8MHzatmega328ob.upload.maximum_size=32256
+ProMiniOpti.menu.cpu.8MHzatmega328ob.upload.maximum_data_size=2048
+ProMiniOpti.menu.cpu.8MHzatmega328ob.upload.speed=57600
+
+ProMiniOpti.menu.cpu.8MHzatmega328ob.bootloader.low_fuses=0xFF
+ProMiniOpti.menu.cpu.8MHzatmega328ob.bootloader.high_fuses=0xDE
+ProMiniOpti.menu.cpu.8MHzatmega328ob.bootloader.extended_fuses=0xFD
+ProMiniOpti.menu.cpu.8MHzatmega328ob.bootloader.file=optiboot/optiboot_atmega328.hex
+
+
+
