@@ -81,14 +81,14 @@ Sollte der Codespeicher nicht reichen, weil zB ein anderer Bootloader als Optibo
 Die fest zugeordneten Ports sind ab Zeile 160 zu sehen.
 
 
-# ++Sensoren++
+# Sensoren
 
 #### Drehzahl (1x)
 - Anzahl Magnete / Auslösungen je Umdrehung
 - Genauigkeit / Abrunden des Drehzahlwertes
 - Anzeige der Auslösungen auf JB zum Sensor Test
 
-**++Sensorwerte:++**
+++Sensorwerte:++
 - aktuelle  Drehzahl
 - Anzahl Umdrehungen gesamt
 - Betriebszeit
