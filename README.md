@@ -88,7 +88,7 @@ Die fest zugeordneten Ports sind ab Zeile 160 zu sehen.
 - Genauigkeit / Abrunden des Drehzahlwertes
 - Anzeige der Auslösungen auf JB zum Sensor Test
 
-++Sensorwerte:++
+Sensorwerte:
 - aktuelle  Drehzahl
 - Anzahl Umdrehungen gesamt
 - Betriebszeit
@@ -104,7 +104,7 @@ Die fest zugeordneten Ports sind ab Zeile 160 zu sehen.
 -- Kalibrierbar
 - Anzeige der Auslösungen auf JB zum Sensor Test
 
-**++Sensorwerte:++**
+Sensorwerte:
 - verbleibende Tankmenge in mL
 - verbrauchte Menge in mL
 - akt. Durchfluss in ml/Min
@@ -115,21 +115,23 @@ Die fest zugeordneten Ports sind ab Zeile 160 zu sehen.
 - NTC (Wärmewiderstand) an Analogport
 - IR (Infrarot) per I2C
 
-**++Sensorwerte:++**
+Sensorwerte:
 - Temperatur 1-7
 
 
 #### Höhe / Vario (1x)
 - Vario Sensibilität (Filter) und Totzone
 
-**++Sensorwerte:++**
+Sensorwerte:
 - relative Höhe bezogen auf Starthöhe
 - gesamt Höhe, Summe aller gemachten Höhenmeter
+- Temperatur
+- Vario
 
 
 #### GPS (1x)
 
-**++Sensorwerte:++**
+Sensorwerte:
 - Anzahl aktiver Satelliten
 - Position, Längen und Breitengrad
 - relative Höhe bezogen auf Starthöhe
@@ -142,7 +144,7 @@ Die fest zugeordneten Ports sind ab Zeile 160 zu sehen.
 
 #### Pitot Rohr (1x)
 
-**++Sensorwerte:++**
+Sensorwerte:
 - Geschwindigkeit
 
 
@@ -151,7 +153,7 @@ Die fest zugeordneten Ports sind ab Zeile 160 zu sehen.
 - Widerstand gegen GND
 - Widerstand gegen Vcc
 
-**++Sensorwerte:++**
+Sensorwerte:
 - Spannung
 
 
@@ -166,7 +168,7 @@ Die fest zugeordneten Ports sind ab Zeile 160 zu sehen.
 - Widerstand gegen GND
 - Widerstand gegen Vcc
 
-**++Sensorwerte:++**
+Sensorwerte:
 - Strom
 - Spannung
 - Leistung
@@ -174,7 +176,7 @@ Die fest zugeordneten Ports sind ab Zeile 160 zu sehen.
 
 
 #### PWM Messung (1x)
-**++Sensorwerte:++**
+Sensorwerte:
 - Impulsdauer eines PWM Signals
 
 
