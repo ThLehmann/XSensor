@@ -83,7 +83,7 @@ Die fest zugeordneten Ports sind ab Zeile 160 zu sehen.
 
 # Sensoren
 
-#### Drehzahl (1x)
+### Drehzahl (1x)
 - Anzahl Magnete / Auslösungen je Umdrehung
 - Genauigkeit / Abrunden des Drehzahlwertes
 - Anzeige der Auslösungen auf JB zum Sensor Test
@@ -94,7 +94,7 @@ Sensorwerte:
 - Betriebszeit
 
 
-#### Durchfluss (1x)
+### Durchfluss (1x)
 - Tankvolumen
 - Rücksetzen
 -- automatisch nach jedem Sensor Neustart (typ. Turbine)
@@ -111,7 +111,7 @@ Sensorwerte:
 - gesamt verbrauchte Menge
 
 
-#### Temperatur (4xNTC / 7x IR)
+### Temperatur (4xNTC / 7x IR)
 - NTC (Wärmewiderstand) an Analogport
 - IR (Infrarot) per I2C
 
@@ -119,7 +119,7 @@ Sensorwerte:
 - Temperatur 1-7
 
 
-#### Höhe / Vario (1x)
+### Höhe / Vario (1x)
 - Vario Sensibilität (Filter) und Totzone
 
 Sensorwerte:
@@ -129,7 +129,7 @@ Sensorwerte:
 - Vario
 
 
-#### GPS (1x)
+### GPS (1x)
 
 Sensorwerte:
 - Anzahl aktiver Satelliten
@@ -142,13 +142,13 @@ Sensorwerte:
 - Enfernung zum Modell, gemessen vom Startpunkt
 - zurückgelegte Strecke, Trip und gesamt
 
-#### Pitot Rohr (1x)
+### Pitot Rohr (1x)
 
 Sensorwerte:
 - Geschwindigkeit
 
 
-#### Spannung / MUL (6x)
+### Spannung / MUL (6x)
 - analog Port
 - Widerstand gegen GND
 - Widerstand gegen Vcc
@@ -157,7 +157,7 @@ Sensorwerte:
 - Spannung
 
 
-#### Spannung-Strom-Leistung / MUI (3x)
+### Spannung-Strom-Leistung / MUI (3x)
 - diverse ACS konfigurierbar, uni als auch bidirektionale Typen
 - Kalibrierbar
 - Rückstellen der verbrauchten Kapazität
@@ -175,12 +175,12 @@ Sensorwerte:
 - entnommene Kapazität
 
 
-#### PWM Messung (1x)
+### PWM Messung (1x)
 Sensorwerte:
 - Impulsdauer eines PWM Signals
 
 
-#### Jetibox
+### Jetibox
 Summenwerte sind per Jetibox rücksetzbar
 - Anzahl Umdrehungen
 - Motor Betriebszeit
