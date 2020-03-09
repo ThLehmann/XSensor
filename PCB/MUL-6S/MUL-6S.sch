@@ -8165,7 +8165,7 @@ Spannungsüberwachung für max 6S Akku
 </text>
 <text x="164.338" y="3.302" size="2.54" layer="91">(c) 2020 Thomas Lehmann / thomas@thls.de
 </text>
-<text x="252.476" y="6.604" size="2.54" layer="91">V1.01</text>
+<text x="252.476" y="6.604" size="2.54" layer="91">V1.02</text>
 <text x="46.736" y="141.732" size="1.778" layer="91" rot="R180">Jumper mit Lötklecks
 verbinden, trennen
 wenn Arduino Update
@@ -8345,12 +8345,16 @@ nicht funktioniert</text>
 <pinref part="U$1" gate="G$1" pin="A0"/>
 <wire x1="109.22" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="129.54" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="129.54" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="124.46" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="88.9" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="86.36" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="93.98" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
 <junction x="109.22" y="93.98"/>
+<pinref part="AKKU" gate="A" pin="2"/>
+<wire x1="190.5" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
+<junction x="109.22" y="124.46"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -8361,17 +8365,13 @@ nicht funktioniert</text>
 <wire x1="121.92" y1="88.9" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="93.98" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="119.38" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="124.46" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="119.38" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="86.36" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
 <junction x="121.92" y="93.98"/>
 <pinref part="R2V" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
 <junction x="121.92" y="119.38"/>
-<pinref part="AKKU" gate="A" pin="2"/>
-<wire x1="190.5" y1="124.46" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="124.46" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
